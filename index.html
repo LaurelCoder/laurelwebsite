@@ -38,10 +38,23 @@
   <h1>Hey hey its me Laurel and that's my portfolio yo</h1>
   <p style="background: linear-gradient(to right, 
               red, orange, yellow, green, blue, indigo, violet);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;">
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: rainbow 2s linear infinite;">
   i love chocolate
 </p>
+
+<style>
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+</style>
+
 
 
 </body>
